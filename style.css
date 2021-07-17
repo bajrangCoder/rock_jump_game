@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.game{
+    width: 500px;
+    height: 230px;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+    border: none;
+   border-bottom: 1px solid #000;
+}
+.control{
+    width: 330px;
+    height:315px;
+    margin: auto;
+    background:#fff;
+}
+#character{
+    width: 76px;
+    height: 70px;
+    background: url(dino.jpg);
+    background-size: cover;
+    position:relative;
+    top: 150px;
+    bottom: 3px;
+}
+h2{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+hr{
+    border: none;
+    border-top: 1px solid #ccc;
+}
+#scoreSpan{
+    color: #13a3c7;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+}
+#alerttxt{
+    color: #c826a9;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#startAgain{
+    background: #4ae82a;
+    border:none;
+    padding: 7px;
+    margin: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    font-family: cursive;
+    outline: none;
+}
+
+#jump{
+    background: dodgerblue;
+    border:none;
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+    margin-right: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    font-family: cursive;
+    outline: none;
+}
+
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+
+    background: url(rock.jpg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -40px}
+}
