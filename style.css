@@ -6,7 +6,7 @@
 }
 .game{
     /*width: 500px;*/
-    height: 230px;
+    height: 350px;
     background: url(bg.jpg);
     background-size: cover;
     background-position: center center;
@@ -16,7 +16,7 @@
    border-bottom: 1px solid #000;
 }
 .control{
-    width: 500px;
+    /*width: 500px;*/
     height:350px;
     margin: auto;
     background:#fff;
