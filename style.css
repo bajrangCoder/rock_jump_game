@@ -5,8 +5,8 @@
     overflow-x: hidden;
 }
 .game{
-    width: 600px;
-    height: 300px;
+    width: 550px;
+    height: 250px;
     background: url(bg.jpeg);
     background-size: cover;
     background-position: center center;
