@@ -5,7 +5,7 @@
     overflow-x: hidden;
 }
 .game{
-    width: 500px;
+    /*width: 500px;*/
     height: 230px;
     background: url(bg.jpg);
     background-size: cover;
@@ -16,8 +16,8 @@
    border-bottom: 1px solid #000;
 }
 .control{
-    width: 350px;
-    height:315px;
+    width: 500px;
+    height:350px;
     margin: auto;
     background:#fff;
 }
