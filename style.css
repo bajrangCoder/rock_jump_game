@@ -9,12 +9,24 @@
     height: 250px;
     background: url(bg.jpeg);
     background-size: cover;
-    background-position: center center;
+    background-position: 120% 0px;
     background-repeat: no-repeat;
     margin: auto;
     border: none;
-   border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000;
+    animation: bg-animate linear 10s infinite;
 }
+
+@keyframes bg-animate{
+    from{
+        background-position: 120% 0px;
+    }
+    to{
+        background-position: -20% 0px;
+    }
+}
+
+
 .control{
     width: 500px;
     height:500px;
@@ -98,7 +110,7 @@ hr{
 }
 
 .animate{
-    animation: jump 0.3s linear;
+    animation: jump 0.4s linear;
 }
 @keyframes jump{
     0%{top: 150px;}
